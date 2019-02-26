@@ -16,7 +16,7 @@ function nowServing(katzDeliLine){
     var first=katzDeliLine[0];
 // >>>>>>> 8baab25ef11b2481ab4976d9a7e2dd53cde033dc
     katzDeliLine.shift();
-    return first;
+    return  "Currently serving " + first;
   }
 }
 
