@@ -25,15 +25,15 @@ function currentLine(line){
     var peopleInLine="The line is currently: "
     for (var i = 0; i < line.length; i++) {
       var number=i+1;
-<<<<<<< HEAD
+// <<<<<<< HEAD
       if(i!=line.length-1){
         peopleInLine+=number+". "+line[i]+", ";
       }else{
         peopleInLine+=number+". "+line[i];
       }
-=======
-      peopleInLine+= i+"."+line[i]+", ";
->>>>>>> 8baab25ef11b2481ab4976d9a7e2dd53cde033dc
+// =======
+//       peopleInLine+= i+"."+line[i]+", ";
+// >>>>>>> 8baab25ef11b2481ab4976d9a7e2dd53cde033dc
     }
     return peopleInLine;
   }else{
