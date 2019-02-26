@@ -41,9 +41,13 @@ function currentLine(line){
   }
 }
 
-function newCounter(counter){
+let counter=0;
+let customers=[];
+
+function newCounter(name){
   var statement="Welcome you are ";
+  customers[counter]=name;
   counter++;
-  statement+=counter +"in line."
+  statement+=counter +" in line.";
   return statement;
 }
