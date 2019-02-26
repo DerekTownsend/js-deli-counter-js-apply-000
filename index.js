@@ -51,3 +51,7 @@ function newCounter(name){
   statement+=counter +" in line.";
   return statement;
 }
+
+function endOfDay(){
+  counter=0;
+}
