@@ -54,4 +54,8 @@ function newCounter(name){
 
 function endOfDay(){
   counter=0;
+  customer=[];
+  for(var i= 0; i<customers.length;i++){
+    customers.
+  }
 }
