@@ -26,13 +26,13 @@ function currentLine(line){
     for (var i = 0; i < line.length; i++) {
       var number=i+1;
 // <<<<<<< HEAD
-      // if(i!=line.length-1){
-      //   peopleInLine+=number+". "+line[i]+", ";
-      // }else{
-      //   peopleInLine+=number+". "+line[i];
-      // }
+      if(i!=line.length-1){
+        peopleInLine+=number+". "+line[i]+", ";
+      }else{
+        peopleInLine+=number+". "+line[i];
+      }
 // =======
-      peopleInLine+= number+". "+line[i]+", ";
+      // peopleInLine+= number+". "+line[i]+", ";
 // >>>>>>> 8baab25ef11b2481ab4976d9a7e2dd53cde033dc
     }
     return peopleInLine;
