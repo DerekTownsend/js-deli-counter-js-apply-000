@@ -55,5 +55,5 @@ function newCounter(name){
 function endOfDay(){
   counter=0;
   customers=[];
-  
+
 }
