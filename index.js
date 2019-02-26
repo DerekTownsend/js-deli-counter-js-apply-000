@@ -32,7 +32,7 @@ function currentLine(line){
       //   peopleInLine+=number+". "+line[i];
       // }
 // =======
-      peopleInLine+= i+"."+line[i]+", ";
+      peopleInLine+= number+"."+line[i]+", ";
 // >>>>>>> 8baab25ef11b2481ab4976d9a7e2dd53cde033dc
     }
     return peopleInLine;
