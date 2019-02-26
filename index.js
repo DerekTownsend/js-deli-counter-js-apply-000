@@ -40,3 +40,10 @@ function currentLine(line){
     return "The line is currently empty.";
   }
 }
+
+function newCounter(counter){
+  var statement="Welcome you are ";
+  counter++;
+  statement+=counter +"in line."
+  return statement;
+}
